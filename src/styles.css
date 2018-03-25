@@ -1,0 +1,205 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+
+}
+.space{
+	padding:0 5px;
+}
+
+.bg-light{
+	min-height: 100px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	font-weight: bolder;
+
+
+}
+.nav-link{
+	color: #fff;
+}
+
+.bg-light {
+    /*background-color: #dd2e2e!important;*/
+    color: #dd2e2e!important;
+    background-image: url(/assets/garrhet-sampson-178990-unsplash.jpg);
+   /* background-image: url(/assets/placement.png);*/
+}
+.jumbo1{
+	height: 550px;
+	width: 100%;
+	/*background-image: url(/assets/garrhet-sampson-178990-unsplash.jpg);*/
+	 background-image: url(/assets/placement1.png);
+	/*background-image:    url(images/background.svg)creativemcb2.png;*/
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    /*color: #fff;*/
+}
+.contactron{
+	background-color: #EEEEEE!important;
+    color: #000!important;
+    border-radius:0px;
+}
+.mcbfont{
+	font: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+.btn-primary1{
+	 border-radius: 24px;
+	 color: #000!important;
+	 background-color: #dd2e2e!important;
+}
+#services .card{
+	border: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 6px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.servicesfont{
+	font: bold;
+	font-size: 18px;
+	/*font-family: 'Oswald', sans-serif;*/
+
+}
+#services.jumbo2{
+	max-height: 650px;
+	width: 100%;
+	background-color: #fff;
+	/*background-image: url(/assets/services.png);*/
+	/*background-image:    url(images/background.svg);*/
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.jumbos{
+	height: 450px;
+	width: 100%;
+	/*background-image: url(/assets/services1.png);*/
+	/*background-image:    url(images/background.svg);*/
+    background-size:     cover;                    
+      /* <------ */
+    background-image:    url(/assets/creativemcb3.png);
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.cardservice{
+	border: none;
+	background-color: #000;
+	border-radius: 0px;
+}
+.jumbos2{
+	height: 250px;
+	width: 100%;
+	background-color: #000;
+	color: #dd2e2e;
+	/*background-image: url(/assets/services1.png);*/
+	/*background-image:    url(images/background.svg);*/
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 10px;
+}
+.jumbos3{
+	height: 250px;
+	width: 100%;
+	background-color: #fff;
+	color: #dd2e2e;
+	/*background-image: url(/assets/services1.png);*/
+	/*background-image:    url(images/background.svg);*/
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 10px;
+}
+
+.card-custom-wide {
+  overflow: hidden;
+  border: 0;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-wide-img {
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* First left setting is a fallback */
+.card-custom-wide .card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 20px;
+  left: 43.3%;
+  left: calc(50% - 75px);
+  width: 150px;
+  height: 150px;
+}
+
+
+
+.jumbo4{
+	height: 100%;
+	width: 100%;
+	/*background-color: rgb(201, 76, 76);*/
+	/*background-image: url(/assets/services1.png);*/
+	/*background-image:    url(images/background.svg);*/
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    margin-bottom: 150px;
+}
+
+ul#work.list-group{
+	border-radius: none;
+}
+
+li.list-group-item{
+	     border-bottom-right-radius: 0px;
+}
+
+
+.jumbo5{
+	height: 450px;
+	width: 100%;
+	/*background-color: #2e2e2e;*/
+	/*color: #dd2e2e;*/
+	/*background-image: url(/assets/services1.png);*/
+	/*background-image:    url(images/background.svg);*/
+    /*background-size:     cover;                      /* <------ */*/
+    /*background-repeat:   no-repeat;*/
+    /*background-position: center center;*/
+    padding: 10px;
+}
+.jumbo6{
+	height: 350px;
+	width: 100%;
+	/*background-image: url(/assets/garrhet-sampson-178990-unsplash.jpg);*/
+	 background-image: url(/assets/construction.png);
+	/*background-image:    url(images/background.svg)creativemcb2.png;*/
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    /*color: #fff;*/
+}
+
+#footer{
+	background-color: #dd2e2e;
+	height: 100px;
+	padding-top: 20px;
+	margin-top: 30px;
+}
