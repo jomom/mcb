@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu.component';
@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { CONST_ROUTING } from './app.routing';
 import { FooterComponent } from './footer/footer.component';
+import { PagesComponent } from './pages/pages.component';
 
 
 @NgModule({
@@ -22,10 +23,12 @@ import { FooterComponent } from './footer/footer.component';
     ServicesComponent,
     AboutComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     CONST_ROUTING
   ],
   providers: [],

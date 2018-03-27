@@ -21,9 +21,9 @@ body{
 }
 
 .bg-light {
-    /*background-color: #dd2e2e!important;*/
+    background-color: #dd2e2e!important;
     color: #dd2e2e!important;
-    background-image: url(/assets/garrhet-sampson-178990-unsplash.jpg);
+    /*background-image: url(/assets/garrhet-sampson-178990-unsplash.jpg);*/
    /* background-image: url(/assets/placement.png);*/
 }
 .jumbo1{
@@ -199,7 +199,7 @@ li.list-group-item{
 
 #footer{
 	background-color: #dd2e2e;
-	height: 100px;
-	padding-top: 20px;
-	margin-top: 30px;
+}
+#footer a {
+	color: #000;
 }
