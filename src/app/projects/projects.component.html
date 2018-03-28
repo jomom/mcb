@@ -208,22 +208,60 @@
 
 
 
+
 		<div class="col-md-4">
 		  <div class="card mb-4 box-shadow">
 		    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 210px; width: 100%; display: block;" src="/assets/printingjob.jpg" data-holder-rendered="true">
 		    <div class="card-body">
-		      <p style="font-weight:bolder;">Printing Works </p>
-		      <p>Publications & Promotional Material</p>
+		    	<p style="font-weight:bolder;">Resolution Health Insurance</p>
+		    	<p>Corporate Events Photography </p>
+		      
 		      <div class="d-flex justify-content-between align-items-center">
 		        <div class="btn-group">
-		          <button type="button" class="btn btn-sm btn-outline-secondary">View Project</button>
-		         
+		          <!-- <button  [routerLink]="['/projects/GIZ and WeltHunger Hilfe']" type="button" class="btn btn-sm btn-outline-secondary">View Project</button> -->
+		          <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#printModal" >View Project</button>    
+		          
 		        </div>
-		        
+
+		         <!-- Modal -->
+				<div class="modal fade" id="printModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Overview of our printing works</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <p>McB Studios is a powerhouse that has been involved with major printing and branding works.From Promotional material,Publications,Outdoor and Indoor signage,Flyers embroidery and graphic design for digital and print works.</p>
+
+				         <p class="text-center">
+			
+							<img src="/assets/printclients.png">
+				        </p>
+
+				        <p>McB clients span from Religious Outfits like Salvation Army where we developed printing works like tshirts,rollup banners,flyers and caps.McB also was tasked with printing Jerseys for Kenya Referees Association in the Western Region.Our clients for printing have a keen eye for quality and have consistently applauded McB Studios execution of World Class Illustrations and printing. 
+						</p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+				        
+				      </div>
+				    </div>
+				  </div>
+				</div>
+		       
 		      </div>
 		    </div>
 		  </div>
 		</div>
+
+
+
+
+
+		
 		<!-- <div class="col-md-4">
 		  <div class="card mb-4 box-shadow">
 		    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 210px; width: 100%; display: block;" src="/assets/welthunger.png" data-holder-rendered="true">
